@@ -3,12 +3,14 @@ import Head from 'next/head'
 import { Inter } from '@next/font/google'
 // import styles from '../styles/Home.module.css'
 import { HStack, VStack } from '@chakra-ui/react'
-import Profile from '../.next/Component/Profile'
-import Tech from '../.next/Component/Tech'
-import Education from '../.next/Component/Education'
+import Profile from './Component/Profile'
+import Tech from './Component/Tech'
+import Education from './Component/Education'
+import Pages from './Component/Projects'
+
 // import Project from '../.next/Component/Projects'
 // import Page from '../.next/Component/Projects'
-import Pages from '../.next/Component/Projects'
+
 
 const inter = Inter({ subsets: ['latin'] })
 

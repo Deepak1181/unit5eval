@@ -1,5 +1,5 @@
 import React from 'react'
-import Pages from '../../.next/Component/Projects'
+import Pages from '../Component/Projects'
 
 const Projectss = ({data2}) => {
   return (
